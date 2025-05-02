@@ -2,6 +2,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -12,6 +13,8 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Lora', serif;
+  font-weight: 400;
 }
 
 h1,
