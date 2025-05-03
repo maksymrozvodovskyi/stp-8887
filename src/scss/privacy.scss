@@ -1,0 +1,105 @@
+.header-privacy {
+  //   padding: 22px 0;
+}
+
+.header-privacy .container {
+  background-color: #bea0c5;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+
+  line-height: 1.28;
+  text-align: center;
+  color: #080606;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+
+    line-height: 1.3;
+  }
+}
+
+.svg-back {
+  fill: transparent;
+  stroke-width: 3px;
+  stroke: #080606;
+  width: 36px;
+  height: 36px;
+
+  @media screen and (min-width: 1200px) {
+    width: 28px;
+    height: 12px;
+  }
+}
+
+.privacy {
+  padding-top: 22px;
+  padding-bottom: 48px;
+  background-color: #bea0c5;
+  width: 320px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.main-privacy-title {
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+
+  line-height: 1.35;
+  color: #080606;
+
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+    line-height: 1.34;
+  }
+}
+
+.privacy-info:not(:last-child) {
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 24px;
+  }
+}
+.privacy-title {
+  font-weight: 600;
+  font-size: 16px;
+
+  line-height: 1.25;
+  color: #080606;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+
+    line-height: 1.28;
+  }
+}
+.privacy-text {
+  font-size: 16px;
+
+  line-height: 1.25;
+  color: #080606;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+
+    line-height: 1.28;
+  }
+}
+
+.privacy-item {
+  list-style: disc;
+  padding-left: 28px;
+}
