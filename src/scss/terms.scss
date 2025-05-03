@@ -16,7 +16,6 @@
   align-items: center;
   gap: 10px;
   font-size: 18px;
-
   line-height: 1.28;
   text-align: center;
   color: #080606;
@@ -26,7 +25,8 @@
   fill: transparent;
   stroke-width: 3px;
   stroke: #080606;
-  width: 36px;
+  width: 12px;
+  height: 24px;
 }
 
 .back-home {
@@ -77,6 +77,13 @@
   margin-bottom: 20px;
 }
 
+.terms-description-with-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+}
+
 .intellectual-property {
   font-weight: 400;
   font-size: 16px;
@@ -95,16 +102,62 @@
 }
 
 .terms-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+}
+
+.google-play {
+  width: 154px;
+}
+
+.google-analytics {
+  width: 218px;
+}
+
+.facebook {
+  width: 70px;
 }
 
 @media screen and (min-width: 1200px) {
+  .terms-title {
+    font-size: 32px;
+    line-height: 1.34;
+  }
+
+  .terms-description {
+    font-size: 18px;
+    line-height: 1.27;
+  }
+
+  .terms-heading {
+    font-size: 18px;
+    line-height: 1.27;
+  }
+
   .svg-back {
-    width: 48px;
-    height: 48px;
+    width: 16px;
+    height: 32px;
   }
 
   .back {
     font-size: 20px;
     line-height: 1.3;
+  }
+
+  .intellectual-property {
+    font-size: 18px;
+    line-height: 1.27;
+  }
+
+  .terms-description-with-list {
+    font-size: 18px;
+    line-height: 1.27;
+  }
+
+  .terms-item {
+    font-size: 18px;
+    line-height: 1.27;
   }
 }
