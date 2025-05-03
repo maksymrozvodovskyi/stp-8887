@@ -98,7 +98,8 @@
     flex-direction: row-reverse;
     background-image: url(../img/hero/star-desktop.png),
       url(../img/hero/star-desktop.png), url(../img/hero/last-star.png);
-    background-position: left top, center bottom, right 25px top 20px;
+    background-position: left 40px top, left 49% bottom -18px,
+      right 25px top 20px;
   }
 
   .game-title {
