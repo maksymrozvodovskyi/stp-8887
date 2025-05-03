@@ -1,0 +1,110 @@
+.terms {
+  background-color: #bea0c5;
+}
+
+.header-terms .container {
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+
+.header-terms {
+  background-color: #bea0c5;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+
+  line-height: 1.28;
+  text-align: center;
+  color: #080606;
+}
+
+.svg-back {
+  fill: transparent;
+  stroke-width: 3px;
+  stroke: #080606;
+  width: 36px;
+}
+
+.back-home {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.27778;
+  text-align: center;
+  color: #080606;
+  width: 122px;
+}
+
+.header-terms {
+}
+
+.terms .container {
+  padding-bottom: 48px;
+}
+
+.terms-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #080606;
+  width: 273px;
+  margin: 0 auto 24px;
+  font-family: 'Cinzel Decorative', sans-serif;
+}
+
+.terms-heading {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+}
+
+.terms-heading-spam {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+}
+
+.terms-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+  margin-bottom: 20px;
+}
+
+.intellectual-property {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+  margin-bottom: 20px;
+}
+
+.intellectual-property:last-child {
+  margin-bottom: 0;
+}
+
+.terms-list {
+  list-style: disc;
+  padding-left: 28px;
+}
+
+.terms-item {
+}
+
+@media screen and (min-width: 1200px) {
+  .svg-back {
+    width: 48px;
+    height: 48px;
+  }
+
+  .back {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+}
