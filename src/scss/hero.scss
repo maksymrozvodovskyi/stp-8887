@@ -97,8 +97,8 @@
     display: flex;
     flex-direction: row-reverse;
     background-image: url(../img/hero/star-desktop.png),
-      url(../img/hero/star-desktop.png);
-    background-position: left top, center bottom;
+      url(../img/hero/star-desktop.png), url(../img/hero/last-star.png);
+    background-position: left top, center bottom, right 25px top 20px;
   }
 
   .game-title {
