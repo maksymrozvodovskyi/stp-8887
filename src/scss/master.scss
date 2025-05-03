@@ -76,6 +76,14 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.master-button:hover {
+  background: #b2c3d5;
+}
+
+.master-button:focus {
+  background: #568ecd;
+}
+
 .button-text {
   line-height: 1.27778;
 }
@@ -86,14 +94,15 @@
     line-height: 1.34;
     color: #080606;
     width: 631px;
+    margin: 0 auto 24px;
   }
 
   .master-slogan {
     font-size: 18px;
     line-height: 1.27;
     color: #080606;
-    width: 612px;
-    margin: 0 auto 24px;
+    width: 618px;
+    margin: 0 auto 40px;
   }
 
   .master-button {
@@ -103,7 +112,23 @@
     height: 69px;
   }
 
+  .button-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.27;
+    color: #080606;
+  }
+
   .google-play {
+    font-weight: 400;
+    font-size: 20px;
     line-height: 1.3;
+    color: #080606;
+    display: block;
+    width: 110px;
+  }
+
+  .master.container {
+    padding: 64px 0;
   }
 }
