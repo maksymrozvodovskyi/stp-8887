@@ -1,10 +1,17 @@
 .header-privacy {
+  background-color: #bea0c5;
 }
 
 .header-privacy .container {
-  background-color: #bea0c5;
   padding-top: 22px;
   padding-bottom: 22px;
+
+  @media screen and (min-width: 1200px) {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 40px;
+    padding-bottom: 24px;
+  }
 }
 
 .back {
@@ -38,14 +45,17 @@
 }
 
 .privacy {
+  background-color: #bea0c5;
+}
+
+.privacy .container {
   padding-top: 22px;
   padding-bottom: 48px;
-  background-color: #bea0c5;
-  width: 320px;
-  margin: 0 auto;
 
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    padding-top: 24px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 
@@ -62,6 +72,7 @@
   @media screen and (min-width: 1200px) {
     font-size: 32px;
     line-height: 1.34;
+    margin-bottom: 40px;
   }
 }
 
