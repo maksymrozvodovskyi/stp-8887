@@ -1,0 +1,102 @@
+.about-game {
+  color: #ddd9d4;
+  background-color: #2c003e;
+}
+
+.about-game .container {
+  padding: 48px 20px;
+  @media screen and (min-width: 1200px) {
+    padding: 64px 120px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .wrap {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+.about-title {
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+
+  line-height: 1.35;
+
+  text-align: center;
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+
+    line-height: 1.34;
+
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-img {
+    width: 550px;
+    height: 391px;
+  }
+}
+
+.image-block {
+  margin: 0 auto 16px auto;
+
+  @media screen and (min-width: 1200px) {
+    margin: 0;
+  }
+}
+
+.about-img {
+  margin: 0 auto;
+}
+
+.description-block {
+  margin: 0 auto;
+
+  width: 288px;
+
+  @media screen and (min-width: 1200px) {
+    width: 386px;
+    margin: 0;
+  }
+}
+
+.description-text {
+  line-height: 1.25;
+
+  @media screen and (min-width: 1200px) {
+    line-height: 1.28;
+    font-size: 18px;
+  }
+}
+
+.description-text {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 2px;
+}
+
+.text-item {
+  display: inline;
+}
+
+.svg-bow {
+  fill: #ddd9d4;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+
+  @media screen and (min-width: 1200px) {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.fix {
+  padding-left: 3px;
+}
