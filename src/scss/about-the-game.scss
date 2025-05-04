@@ -4,8 +4,7 @@
 }
 
 .about-game .container {
-  padding: 48px 0;
-
+  padding: 48px 20px;
   @media screen and (min-width: 1200px) {
     padding: 64px 120px;
   }
@@ -96,4 +95,8 @@
     width: 20px;
     height: 20px;
   }
+}
+
+.fix {
+  padding-left: 3px;
 }
