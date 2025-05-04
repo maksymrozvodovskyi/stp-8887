@@ -1,10 +1,10 @@
 .about-game {
   color: #ddd9d4;
+  background-color: #2c003e;
 }
 
 .about-game .container {
   padding: 48px 0;
-  background-color: #2c003e;
 
   @media screen and (min-width: 1200px) {
     padding: 64px 120px;
@@ -14,7 +14,7 @@
 @media only screen and (min-width: 1200px) {
   .wrap {
     display: flex;
-    gap: 23px;
+    gap: 24px;
   }
 }
 
@@ -79,6 +79,7 @@
 .description-text {
   display: flex;
   gap: 4px;
+  margin-bottom: 2px;
 }
 
 .text-item {
