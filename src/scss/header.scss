@@ -4,6 +4,7 @@
   left: 0;
   width: 100%;
   color: $_main_color_text;
+  background-color: $_main_bg_color;
 
   .container {
     display: flex;
@@ -11,7 +12,6 @@
     align-items: center;
     padding: 16px 16px;
     margin: 0 auto;
-    background-color: $_main_bg_color;
 
     @media screen and (min-width: 1200px) {
       padding: 16px 120px;
