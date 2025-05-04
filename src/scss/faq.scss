@@ -53,11 +53,6 @@
 .faq-title {
   margin-bottom: 16px;
   color: #080606;
-
-  @media screen and (min-width: 1200px) {
-    font-size: 18px;
-    line-height: 1.28;
-  }
 }
 
 .faq-btn {
@@ -67,6 +62,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+  padding: 0;
+  text-align: left;
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 18px;
+    line-height: 1.28;
+  }
 }
 
 .icon-faq {
