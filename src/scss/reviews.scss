@@ -7,8 +7,8 @@
   height: 842px;
   padding-top: 48px;
   padding-bottom: 48px;
-  background-image: url('../img/reviews/skeletal-hand-left.png'),
-    url('../img/reviews/skeletal-hand-right.png');
+  background-image: url('/img/reviews/skeletal-hand-left.png'),
+    url('/img/reviews/skeletal-hand-right.png');
   background-position: left 38%, right 58%;
   background-repeat: no-repeat;
 }
@@ -51,26 +51,26 @@
 }
 
 .reviews-item:nth-child(1) {
-  background-image: url('../img/reviews/first-child.png');
+  background-image: url('/img/reviews/first-child.png');
   margin-bottom: 8px;
 }
 
 .reviews-item:nth-child(2) {
   margin-left: auto;
-  background-image: url('../img/reviews/second-child.png');
+  background-image: url('/img/reviews/second-child.png');
   height: 136px;
   padding-top: 21px;
   margin-bottom: 16px;
 }
 
 .reviews-item:nth-child(3) {
-  background-image: url('../img/reviews/third-child.png');
+  background-image: url('/img/reviews/third-child.png');
   height: 129px;
   margin-bottom: 8px;
 }
 
 .reviews-item:nth-child(4) {
-  background-image: url('../img/reviews/fourth-child.png');
+  background-image: url('/img/reviews/fourth-child.png');
   height: 136px;
   margin-bottom: 16px;
   padding-top: 21px;
@@ -78,7 +78,7 @@
 }
 
 .reviews-item:nth-child(5) {
-  background-image: url('../img/reviews/fifth-child.png');
+  background-image: url('/img/reviews/fifth-child.png');
   height: 120px;
 }
 
@@ -87,12 +87,8 @@
     padding-top: 64px;
     padding-bottom: 64px;
     height: 721px;
-    // background-image: url('../img/reviews/skeletal-hand-left.png'),
-    //   url('../img/reviews/skeletal-hand-right.png');
-    // background-position: left 38%, right 58%;
-    // background-repeat: no-repeat;
-    background-image: url('../img/reviews/skeletal-hand-left-desk.png'),
-      url('../img/reviews/skeletal-hand-right-desk.png');
+    background-image: url('/img/reviews/skeletal-hand-left-desk.png'),
+      url('/img/reviews/skeletal-hand-right-desk.png');
     background-position: left 80%, right 60%;
   }
 
@@ -127,7 +123,7 @@
   }
 
   .reviews-item:nth-child(1) {
-    background-image: url('../img/reviews/first-child-desk.png');
+    background-image: url('/img/reviews/first-child-desk.png');
     height: 193px;
     margin-bottom: 0;
     margin-top: 40px;
@@ -135,7 +131,7 @@
   }
 
   .reviews-item:nth-child(2) {
-    background-image: url('../img/reviews/second-child-desk.png');
+    background-image: url('/img/reviews/second-child-desk.png');
     height: 192px;
     padding-top: 39px;
     margin-left: 0;
@@ -144,30 +140,24 @@
   }
 
   .reviews-item:nth-child(3) {
-    background-image: url('../img/reviews/third-child-desk.png');
+    background-image: url('/img/reviews/third-child-desk.png');
     height: 175px;
     margin-bottom: 0;
     transform: translate(20px, 125px);
   }
 
   .reviews-item:nth-child(4) {
-    background-image: url('../img/reviews/fourth-child-desk.png');
+    background-image: url('/img/reviews/fourth-child-desk.png');
     height: 204px;
     margin-bottom: 0;
     padding-top: 39px;
     margin-left: 0;
-  }
-
-  .reviews-item:nth-child(5) {
-    background-image: url('../img/reviews/fifth-child-desk.png');
-    height: 171px;
-  }
-
-  .reviews-item:nth-child(4) {
     transform: translate(-465px, 340px);
   }
 
   .reviews-item:nth-child(5) {
+    background-image: url('/img/reviews/fifth-child-desk.png');
+    height: 171px;
     transform: translate(-125px, 390px);
   }
 }
