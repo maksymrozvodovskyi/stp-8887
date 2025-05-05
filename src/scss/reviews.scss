@@ -37,6 +37,11 @@
   color: #080606;
 }
 
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+}
+
 .reviews-item {
   width: 222px;
   height: 126px;
@@ -49,7 +54,7 @@
 }
 
 .reviews-item:nth-child(2) {
-  margin-left: 66px;
+  margin-left: auto;
   background-image: url('../img/reviews/second-child.png');
   height: 136px;
   padding-top: 21px;
@@ -67,10 +72,87 @@
   height: 136px;
   margin-bottom: 16px;
   padding-top: 21px;
-  margin-left: 66px;
+  margin-left: auto;
 }
 
 .reviews-item:nth-child(5) {
   background-image: url('../img/reviews/fifth-child.png');
   height: 120px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .reviews .container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 87px;
+    padding-right: 145px;
+    // background-image: url('../img/reviews/skeletal-hand-left.png'),
+    //   url('../img/reviews/skeletal-hand-right.png');
+    // background-position: left 38%, right 58%;
+    // background-repeat: no-repeat;
+  }
+
+  .reviews-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .reviews-title {
+    font-size: 32px;
+    line-height: 1.34;
+    margin-bottom: 0;
+  }
+
+  .reviews-respond {
+    font-size: 18px;
+    line-height: 1.28;
+    margin-bottom: 24px;
+  }
+
+  .reviews-name {
+    font-size: 18px;
+    line-height: 1.28;
+  }
+
+  .reviews-item {
+    width: 222px;
+    height: 187px;
+    padding: 24px;
+  }
+
+  .reviews-item:nth-child(1) {
+    background-image: url('../img/reviews/first-child-desk.png');
+    height: 193px;
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+
+  .reviews-item:nth-child(2) {
+    background-image: url('../img/reviews/second-child-desk.png');
+    height: 192px;
+    padding-top: 39px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .reviews-item:nth-child(3) {
+    background-image: url('../img/reviews/second-child-desk.png');
+    height: 192px;
+    margin-bottom: 0;
+  }
+
+  .reviews-item:nth-child(4) {
+    background-image: url('../img/reviews/fourth-child-desk.png');
+    height: 204px;
+    margin-bottom: 0;
+    padding-top: 39px;
+    margin-left: 0;
+  }
+
+  .reviews-item:nth-child(5) {
+    background-image: url('../img/reviews/fifth-child-desk.png');
+    height: 171px;
+  }
 }
