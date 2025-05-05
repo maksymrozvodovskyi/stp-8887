@@ -1,0 +1,172 @@
+.reviews {
+  background: #bea0c5;
+}
+
+.reviews .container {
+  height: 842px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-image: url('../img/reviews/skeletal-hand-left.png'),
+    url('../img/reviews/skeletal-hand-right.png');
+  background-position: left 38%, right 58%;
+  background-repeat: no-repeat;
+}
+
+.reviews-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #080606;
+  font-family: 'Cinzel Decorative', sans-serif;
+  margin: 0 auto;
+  width: 94px;
+  margin-bottom: 24px;
+}
+
+.reviews-respond {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+  margin-bottom: 16px;
+}
+
+.reviews-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews-item {
+  width: 222px;
+  height: 126px;
+  padding: 12px;
+}
+
+.reviews-item:nth-child(1) {
+  background-image: url('../img/reviews/first-child.png');
+  margin-bottom: 8px;
+}
+
+.reviews-item:nth-child(2) {
+  margin-left: auto;
+  background-image: url('../img/reviews/second-child.png');
+  height: 136px;
+  padding-top: 21px;
+  margin-bottom: 16px;
+}
+
+.reviews-item:nth-child(3) {
+  background-image: url('../img/reviews/third-child.png');
+  height: 129px;
+  margin-bottom: 8px;
+}
+
+.reviews-item:nth-child(4) {
+  background-image: url('../img/reviews/fourth-child.png');
+  height: 136px;
+  margin-bottom: 16px;
+  padding-top: 21px;
+  margin-left: auto;
+}
+
+.reviews-item:nth-child(5) {
+  background-image: url('../img/reviews/fifth-child.png');
+  height: 120px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .reviews .container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    height: 721px;
+    // background-image: url('../img/reviews/skeletal-hand-left.png'),
+    //   url('../img/reviews/skeletal-hand-right.png');
+    // background-position: left 38%, right 58%;
+    // background-repeat: no-repeat;
+    background-image: url('../img/reviews/skeletal-hand-left-desk.png'),
+      url('../img/reviews/skeletal-hand-right-desk.png');
+    background-position: left 80%, right 60%;
+  }
+
+  .reviews-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .reviews-title {
+    font-size: 32px;
+    line-height: 1.34;
+    margin-bottom: 0;
+    width: 149px;
+  }
+
+  .reviews-respond {
+    font-size: 18px;
+    line-height: 1.28;
+    margin-bottom: 24px;
+  }
+
+  .reviews-name {
+    font-size: 18px;
+    line-height: 1.28;
+  }
+
+  .reviews-item {
+    width: 222px;
+    height: 187px;
+    padding: 24px;
+  }
+
+  .reviews-item:nth-child(1) {
+    background-image: url('../img/reviews/first-child-desk.png');
+    height: 193px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    transform: translate(55px, 5px);
+  }
+
+  .reviews-item:nth-child(2) {
+    background-image: url('../img/reviews/second-child-desk.png');
+    height: 192px;
+    padding-top: 39px;
+    margin-left: 0;
+    margin-bottom: 0;
+    transform: translate(595px, 30px);
+  }
+
+  .reviews-item:nth-child(3) {
+    background-image: url('../img/reviews/third-child-desk.png');
+    height: 175px;
+    margin-bottom: 0;
+    transform: translate(20px, 125px);
+  }
+
+  .reviews-item:nth-child(4) {
+    background-image: url('../img/reviews/fourth-child-desk.png');
+    height: 204px;
+    margin-bottom: 0;
+    padding-top: 39px;
+    margin-left: 0;
+  }
+
+  .reviews-item:nth-child(5) {
+    background-image: url('../img/reviews/fifth-child-desk.png');
+    height: 171px;
+  }
+
+  .reviews-item:nth-child(4) {
+    transform: translate(-465px, 340px);
+  }
+
+  .reviews-item:nth-child(5) {
+    transform: translate(-125px, 390px);
+  }
+}
