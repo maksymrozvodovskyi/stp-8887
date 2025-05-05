@@ -48,4 +48,25 @@
   margin-left: 66px;
   background-image: url('../img/reviews/second-child.png');
   height: 136px;
+  padding-top: 21px;
+  margin-bottom: 16px;
+}
+
+.reviews-item:nth-child(3) {
+  background-image: url('../img/reviews/third-child.png');
+  height: 129px;
+  margin-bottom: 8px;
+}
+
+.reviews-item:nth-child(4) {
+  background-image: url('../img/reviews/fourth-child.png');
+  height: 136px;
+  margin-bottom: 16px;
+  padding-top: 21px;
+  margin-left: 66px;
+}
+
+.reviews-item:nth-child(5) {
+  background-image: url('../img/reviews/fifth-child.png');
+  height: 120px;
 }
