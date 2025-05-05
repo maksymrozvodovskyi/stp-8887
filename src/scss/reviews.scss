@@ -1,9 +1,9 @@
 .reviews {
   background: #bea0c5;
-  height: 721px;
 }
 
 .reviews .container {
+  height: 842px;
   padding-top: 48px;
   padding-bottom: 48px;
   background-image: url('../img/reviews/skeletal-hand-left.png'),
@@ -85,10 +85,14 @@
   .reviews .container {
     padding-top: 64px;
     padding-bottom: 64px;
+    height: 721px;
     // background-image: url('../img/reviews/skeletal-hand-left.png'),
     //   url('../img/reviews/skeletal-hand-right.png');
     // background-position: left 38%, right 58%;
     // background-repeat: no-repeat;
+    background-image: url('../img/reviews/skeletal-hand-left-desk.png'),
+      url('../img/reviews/skeletal-hand-right-desk.png');
+    background-position: left 80%, right 60%;
   }
 
   .reviews-list {
