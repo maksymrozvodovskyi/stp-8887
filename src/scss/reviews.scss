@@ -5,6 +5,10 @@
 .reviews .container {
   padding-top: 48px;
   padding-bottom: 48px;
+  background-image: url('../img/reviews/skeletal-hand-left.png'),
+    url('../img/reviews/skeletal-hand-right.png');
+  background-position: left 38%, right 58%;
+  background-repeat: no-repeat;
 }
 
 .reviews-title {
