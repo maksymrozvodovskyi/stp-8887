@@ -1,0 +1,51 @@
+.reviews {
+  background: #bea0c5;
+}
+
+.reviews .container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.reviews-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #080606;
+  font-family: 'Cinzel Decorative', sans-serif;
+  margin: 0 auto;
+  width: 94px;
+  margin-bottom: 24px;
+}
+
+.reviews-respond {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+  margin-bottom: 16px;
+}
+
+.reviews-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+}
+
+.reviews-item {
+  width: 222px;
+  height: 126px;
+  padding: 12px;
+}
+
+.reviews-item:nth-child(1) {
+  background-image: url('../img/reviews/first-child.png');
+  margin-bottom: 8px;
+}
+
+.reviews-item:nth-child(2) {
+  margin-left: 66px;
+  background-image: url('../img/reviews/second-child.png');
+  height: 136px;
+}
