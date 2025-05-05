@@ -126,7 +126,7 @@
     height: 193px;
     margin-bottom: 0;
     margin-top: 40px;
-    transform: translate(55px, -5px);
+    transform: translate(55px, 5px);
   }
 
   .reviews-item:nth-child(2) {
@@ -135,14 +135,14 @@
     padding-top: 39px;
     margin-left: 0;
     margin-bottom: 0;
-    transform: translate(600px, 30px);
+    transform: translate(595px, 30px);
   }
 
   .reviews-item:nth-child(3) {
     background-image: url('../img/reviews/third-child-desk.png');
     height: 175px;
     margin-bottom: 0;
-    transform: translate(20px, 118px);
+    transform: translate(20px, 125px);
   }
 
   .reviews-item:nth-child(4) {
@@ -159,10 +159,10 @@
   }
 
   .reviews-item:nth-child(4) {
-    transform: translate(-510px, 350px);
+    transform: translate(-465px, 340px);
   }
 
   .reviews-item:nth-child(5) {
-    transform: translate(-200px, 400px);
+    transform: translate(-125px, 390px);
   }
 }
