@@ -1,0 +1,76 @@
+.features {
+  background-color: #2c003e;
+}
+.container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.features-title {
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+
+  line-height: 1.35;
+  color: #ddd9d4;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.features-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.features-list {
+  width: 288px;
+  padding: 16px 12px;
+  box-shadow: 0 4px 8px 0 rgba(105, 87, 109, 0.3);
+  border-radius: 5px;
+  background: #ddd9d4;
+  color: #080606;
+}
+
+.svg-features {
+  position: absolute;
+
+  width: 36px;
+  height: 36px;
+  fill: #bea0c5;
+}
+
+.square {
+  translate: -22px -36px;
+}
+
+.sword {
+  translate: -24px -36px;
+}
+
+.people {
+  translate: -24px -34px;
+}
+
+.setting {
+  translate: -24px -34px;
+}
+
+.world {
+  translate: -24px -34px;
+}
+
+.star {
+  translate: -22px -34px;
+}
+
+.features-list-title {
+  font-weight: 600;
+  font-size: 18px;
+
+  line-height: 1.28;
+  margin-bottom: 8px;
+}
+.features-text {
+  line-height: 1.25;
+}
