@@ -1,6 +1,9 @@
 .reviews {
   background: #bea0c5;
   scroll-margin-top: 70px;
+  @media only screen and (min-width: 1200px) {
+    scroll-margin-top: 80px;
+  }
 }
 
 .reviews .container {
