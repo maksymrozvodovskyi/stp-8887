@@ -68,6 +68,7 @@
   color: #080606;
 
   text-align: center;
+  margin-bottom: 24px;
 
   @media screen and (min-width: 1200px) {
     font-size: 32px;
@@ -114,7 +115,24 @@
   }
 }
 
-.privacy-item {
-  list-style: disc;
+.text-item {
+  padding: 0;
+  font-weight: 400;
+}
+
+.li-content {
+  position: relative;
+  left: -28px;
+}
+
+.privacy-li {
+  position: relative;
   padding-left: 28px;
+}
+
+.privacy-li::before {
+  position: absolute;
+  content: '\2022';
+  left: 10px;
+  top: 0;
 }
