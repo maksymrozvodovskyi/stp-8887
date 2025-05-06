@@ -1,0 +1,34 @@
+.toPlay {
+  background-color: #bea0c5;
+}
+.container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.main-sec-title {
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+
+  line-height: 1.35;
+  color: #080606;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.how-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  line-height: 1.25;
+
+  color: #080606;
+}
+.how-item {
+  padding: 12px;
+
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(44, 0, 62, 0.3);
+  background-color: #ddd9d4;
+}
+.how-text {
+}
