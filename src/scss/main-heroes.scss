@@ -1,0 +1,47 @@
+.heroes {
+  background: #bea0c5;
+}
+
+.heroes .container {
+  padding: 48px 16px;
+}
+
+.heroes-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #080606;
+  font-family: 'Cinzel Decorative', sans-serif;
+  margin: 0 auto 24px;
+  max-width: 149px;
+}
+
+.heroes-desc {
+  border: 3px solid #2c003e;
+  border-radius: 5px;
+  padding: 12px;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+}
+
+.heroes-img {
+  width: 288px;
+  height: 447px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: block !important;
+}
+
+.swiper-pagination-bullet {
+}
+
+.swiper-pagination-bullet-active {
+}
+
+.swiper-pagination {
+}
