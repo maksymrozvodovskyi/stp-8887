@@ -3,7 +3,7 @@
 }
 
 .heroes .container {
-  padding: 48px 16px;
+  padding: 48px 16px 44px 16px;
 }
 
 .heroes-title {
@@ -45,4 +45,29 @@
 }
 
 .swiper-pagination {
+}
+
+.swiper .swiper-pagination {
+  display: block !important;
+  bottom: var(--swiper-pagination-bottom, 20px) !important;
+  transform: translateX(-32%) !important;
+}
+
+.swiper {
+  height: 600px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 5px !important;
+  height: 5px !important;
+  border-radius: 100% !important;
+  background-color: #ddd9d4 !important;
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 3px) !important;
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 1) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #2c003e !important;
+  width: 6px !important;
+  height: 6px !important;
 }
