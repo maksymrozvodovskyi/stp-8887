@@ -47,8 +47,6 @@
   display: flex;
   gap: 24px;
 }
-.nav-item {
-}
 
 .nav-item:hover .nav-link,
 .burger-item:hover .nav-link {
@@ -103,8 +101,6 @@
   position: fixed;
   z-index: 2;
 
-  padding: 40px 24px;
-
   top: 0;
   left: 0;
 
@@ -115,6 +111,11 @@
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: transform, opacity, visibility;
+}
+
+.burger-menu .container {
+  position: relative;
+  padding: 40px 24px;
 }
 
 .header-menu-close {
