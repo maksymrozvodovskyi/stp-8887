@@ -21,5 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    breakpoints: {
+      320: {
+        spaceBetween: 75,
+      },
+    },
   });
 });
