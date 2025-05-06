@@ -1,9 +1,13 @@
 .features {
   background-color: #2c003e;
 }
-.container {
+.features .container {
   padding-top: 48px;
   padding-bottom: 48px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 64px 120px;
+  }
 }
 
 .features-title {
@@ -15,12 +19,25 @@
   color: #ddd9d4;
   text-align: center;
   margin-bottom: 24px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+
+    line-height: 1.34;
+    margin-bottom: 40px;
+  }
 }
 .features-item {
   display: flex;
   flex-direction: column;
   gap: 24px;
   position: relative;
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px 90px;
+  }
 }
 
 .features-list {
@@ -30,6 +47,11 @@
   border-radius: 5px;
   background: #ddd9d4;
   color: #080606;
+
+  @media screen and (min-width: 1200px) {
+    width: 260px;
+    padding: 24px 16px;
+  }
 }
 
 .svg-features {
@@ -38,30 +60,59 @@
   width: 36px;
   height: 36px;
   fill: #bea0c5;
+
+  @media screen and (min-width: 1200px) {
+    width: 48px;
+    height: 48px;
+  }
 }
 
 .square {
   translate: -22px -36px;
+
+  @media screen and (min-width: 1200px) {
+    translate: -34px -46px;
+  }
 }
 
 .sword {
   translate: -24px -36px;
+
+  @media screen and (min-width: 1200px) {
+    translate: -35px -46px;
+  }
 }
 
 .people {
   translate: -24px -34px;
+
+  @media screen and (min-width: 1200px) {
+    translate: -35px -47px;
+  }
 }
 
 .setting {
   translate: -24px -34px;
+
+  @media screen and (min-width: 1200px) {
+    translate: -35px -47px;
+  }
 }
 
 .world {
   translate: -24px -34px;
+
+  @media screen and (min-width: 1200px) {
+    translate: -32px -47px;
+  }
 }
 
 .star {
   translate: -22px -34px;
+
+  @media screen and (min-width: 1200px) {
+    translate: -27px -47px;
+  }
 }
 
 .features-list-title {
@@ -70,7 +121,21 @@
 
   line-height: 1.28;
   margin-bottom: 8px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+
+    line-height: 1.3;
+
+    margin-bottom: 16px;
+  }
 }
 .features-text {
   line-height: 1.25;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+
+    line-height: 1.28;
+  }
 }
