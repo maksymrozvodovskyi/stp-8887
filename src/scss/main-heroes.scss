@@ -53,11 +53,13 @@
 
 @media only screen and (min-width: 1200px) {
   .heroes-desc {
+    left: -70px;
+    position: absolute;
     padding: 10px;
     font-size: 18px;
     line-height: 1.28;
     margin: 24px auto 0;
-    max-width: 520px;
+    width: 520px;
   }
 }
 
@@ -114,11 +116,11 @@
   }
 
   .swiper-slide-prev {
-    transform: scale(0.95) translate(20px, 74.5px) !important;
+    transform: scale(0.95) translate(40px, 70px) !important;
   }
 
   .swiper-slide-next {
-    transform: scale(0.95) translate(-20px, 74.5px) !important;
+    transform: scale(0.95) translate(-40px, 70px) !important;
   }
 
   .swiper-slide-active {
