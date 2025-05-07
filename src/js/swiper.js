@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 let swiper;
 
 function initSwiper() {
-  swiper = new Swiper('.swiper', {
+  swiper = new Swiper('[data-swiper]', {
     modules: [Pagination, Navigation],
     direction: 'horizontal',
     loop: true,
@@ -16,14 +16,14 @@ function initSwiper() {
     slidesPerView: 1,
     initialSlide: 0,
     pagination: {
-      el: '.swiper-pagination',
+      el: '[data-swiper-pagination]',
       clickable: true,
       dynamicMainBullets: 5,
       dynamicBullets: true,
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '[data-swiper-button-next]',
+      prevEl: '[data-swiper-button-prev]',
     },
     breakpoints: {
       320: {
