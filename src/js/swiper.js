@@ -14,7 +14,7 @@ function initSwiper() {
     loop: true,
     centeredSlides: true,
     slidesPerView: 1,
-    initialSlide: 1,
+    initialSlide: 0,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
