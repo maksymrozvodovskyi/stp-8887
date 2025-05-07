@@ -10,7 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
     modules: [Pagination, Navigation],
     direction: 'horizontal',
     loop: true,
+    centeredSlides: true,
     slidesPerView: 1,
+    initialSlide: 1,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
@@ -24,6 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
     breakpoints: {
       320: {
         spaceBetween: 75,
+        slidesPerView: 1,
+        allowTouchMove: true,
+      },
+      1200: {
+        slidesPerView: 3,
+        allowTouchMove: false,
       },
     },
   });

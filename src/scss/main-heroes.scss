@@ -34,7 +34,7 @@
 .heroes-desc {
   border: 3px solid #2c003e;
   border-radius: 5px;
-  padding: 12px;
+  padding: 9px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -59,13 +59,6 @@
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 1200px) {
-  .heroes-img {
-    width: 400px;
-    height: 596px;
-  }
-}
-
 .swiper-button-prev,
 .swiper-button-next {
   display: none !important;
@@ -82,19 +75,54 @@
   }
 }
 
-.swiper-pagination-bullet {
-}
+@media only screen and (min-width: 1200px) {
+  .swiper-slide {
+    z-index: 1;
+    transition: transform 0.4s ease, filter 0.4s ease !important;
+    filter: blur(4px) brightness(0.8) !important;
+    transform: scale(0.95) translate(-12px, 74.5px) !important;
+    width: 300px !important;
 
-.swiper-pagination-bullet-active {
-}
+    .heroes-desc {
+      display: none !important;
+    }
 
-.swiper-pagination {
+    .heroes-img {
+      width: 300px !important;
+      height: 447px !important;
+    }
+  }
+
+  .swiper-slide-prev {
+    transform: scale(0.95) translate(20px, 74.5px) !important;
+  }
+
+  .swiper-slide-next {
+    transform: scale(0.95) translate(-20px, 74.5px) !important;
+  }
+
+  .swiper-slide-active {
+    filter: none !important;
+    opacity: 1 !important;
+    z-index: 2 !important;
+    transform: scale(1) translateY(0) !important;
+    width: 400px !important;
+
+    .heroes-desc {
+      display: block !important;
+    }
+
+    .heroes-img {
+      width: 450px !important;
+      height: 596px !important;
+    }
+  }
 }
 
 .swiper .swiper-pagination {
   display: block !important;
   bottom: var(--swiper-pagination-bottom, 20px) !important;
-  transform: translateX(-32%) !important;
+  transform: translateX(-47%) !important;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -127,3 +155,18 @@
   width: 6px !important;
   height: 6px !important;
 }
+
+// @media only screen and (min-width: 1200px) {
+//   .swiper {
+//     overflow: hidden !important; /* це приховає бокові артефакти */
+//     position: relative !important; /* для надійності */
+//   }
+
+//   .swiper-wrapper {
+//     overflow: visible !important; /* дозволяє виходити слайдам всередині */
+//   }
+
+//   .swiper-slide {
+//     position: relative !important;
+//   }
+// }
