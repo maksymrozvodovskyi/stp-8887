@@ -9,6 +9,7 @@
 @media only screen and (min-width: 1200px) {
   .heroes .container {
     padding: 64px 120px;
+    position: relative;
   }
 }
 
@@ -61,17 +62,28 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  display: none !important;
+  opacity: 0;
+  pointer-events: none;
 }
 
 @media only screen and (min-width: 1200px) {
   .swiper-button-prev,
   .swiper-button-next {
-    display: block !important;
     stroke-width: 3px !important;
     --swiper-theme-color: #080606 !important;
     --swiper-navigation-size: 32px !important;
     margin-top: calc(-54px - (var(--swiper-navigation-size) / 2)) !important;
+    opacity: 1 !important;
+    pointer-events: all !important;
+    top: var(--swiper-navigation-top-offset, 55%) !important;
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 50px) !important;
+  }
+
+  .swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 50px) !important;
   }
 }
 
@@ -138,6 +150,7 @@
 @media only screen and (min-width: 1200px) {
   .swiper {
     height: 700px !important;
+    position: static !important;
   }
 }
 
@@ -155,18 +168,3 @@
   width: 6px !important;
   height: 6px !important;
 }
-
-// @media only screen and (min-width: 1200px) {
-//   .swiper {
-//     overflow: hidden !important; /* це приховає бокові артефакти */
-//     position: relative !important; /* для надійності */
-//   }
-
-//   .swiper-wrapper {
-//     overflow: visible !important; /* дозволяє виходити слайдам всередині */
-//   }
-
-//   .swiper-slide {
-//     position: relative !important;
-//   }
-// }
