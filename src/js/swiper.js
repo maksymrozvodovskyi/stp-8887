@@ -5,8 +5,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-document.addEventListener('DOMContentLoaded', () => {
-  new Swiper('.swiper', {
+let swiper; // виніс глобально
+
+function initSwiper() {
+  swiper = new Swiper('.swiper', {
     modules: [Pagination, Navigation],
     direction: 'horizontal',
     loop: true,
@@ -31,8 +33,25 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       1200: {
         slidesPerView: 3,
+        centeredSlides: true,
         allowTouchMove: false,
       },
     },
   });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  initSwiper();
+});
+
+let lastIsDesktop = window.innerWidth >= 1200;
+
+window.addEventListener('resize', () => {
+  const isDesktop = window.innerWidth >= 1200;
+
+  if (isDesktop !== lastIsDesktop) {
+    swiper.destroy(true, true);
+    initSwiper();
+    lastIsDesktop = isDesktop;
+  }
 });
