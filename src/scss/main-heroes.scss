@@ -1,5 +1,13 @@
 .heroes {
   background: #bea0c5;
+  height: 700px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .heroes {
+    background: #bea0c5;
+    height: auto;
+  }
 }
 
 .heroes .container {
@@ -133,7 +141,7 @@
 
 .swiper .swiper-pagination {
   display: block !important;
-  bottom: var(--swiper-pagination-bottom, 20px) !important;
+  bottom: var(--swiper-pagination-bottom, 30px) !important;
   transform: translateX(-47%) !important;
 }
 
