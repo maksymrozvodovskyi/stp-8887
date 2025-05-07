@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-let swiper; // виніс глобально
+let swiper;
 
 function initSwiper() {
   swiper = new Swiper('.swiper', {
