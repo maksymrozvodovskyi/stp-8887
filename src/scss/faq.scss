@@ -51,7 +51,12 @@
     padding-top: 23px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 14px;
+    padding-bottom: 23px;
+    transition: padding 250ms ease;
+
+    &.is-active {
+      padding-bottom: 14px;
+    }
 
     &:not(:last-child) {
       margin-bottom: 24px;
@@ -115,6 +120,9 @@
   font-weight: 400;
   display: inline-block;
   padding: 4px;
+  font-size: 16px;
+
+  line-height: 1.25;
 
   border-radius: 5px;
 
