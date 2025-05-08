@@ -1,0 +1,126 @@
+.to-play {
+  background-color: #bea0c5;
+  position: relative;
+}
+.to-play .container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 64px 0;
+    margin: 0 auto;
+  }
+}
+.main-sec-title {
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+
+  line-height: 1.35;
+  color: #080606;
+  text-align: center;
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+    line-height: 1.34;
+    margin-bottom: 40px;
+  }
+}
+.how-list {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  line-height: 1.25;
+
+  color: #080606;
+
+  @media screen and (min-width: 1200px) {
+    display: inline-block;
+
+    font-size: 18px;
+
+    line-height: 1.28;
+  }
+}
+.how-item {
+  position: relative;
+  z-index: 1;
+
+  padding: 12px;
+
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(44, 0, 62, 0.3);
+  background-color: #ddd9d4;
+
+  @media screen and (min-width: 1200px) {
+    display: inline-block;
+
+    padding: 10px 10px 10px 28px;
+    margin-bottom: 80px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .first-item {
+    margin-left: 55px;
+  }
+
+  .second-item {
+    margin-left: 505px;
+  }
+
+  .third-item {
+    margin-left: 73px;
+  }
+
+  .fourth-item {
+    margin-left: 467px;
+  }
+
+  .fifth-item {
+    margin-left: 98px;
+  }
+}
+.svg-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  translate: -12px -12px;
+  width: 24px;
+  height: 24px;
+  fill: #2c003e;
+  stroke: #ddd9d4;
+  box-shadow: 0 4px 8px 0 rgba(44, 0, 62, 0.3);
+  border: 1px solid #ddd9d4;
+  border-radius: 100%;
+
+  @media screen and (min-width: 1200px) {
+    width: 48px;
+    height: 48px;
+    translate: -24px -3px;
+  }
+}
+
+.dotted-mob {
+  position: absolute;
+  top: 180px;
+  left: 44px;
+  width: 239px;
+  height: 465px;
+  background-image: url('../img/how-to-play/dotted-mob.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 1200px) {
+    background-image: url('../img/how-to-play/dotted.png');
+    top: 171px;
+    left: 244px;
+    width: 677px;
+    height: 510px;
+  }
+}

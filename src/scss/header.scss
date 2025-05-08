@@ -6,6 +6,7 @@
   width: 100%;
   color: $_main_color_text;
   background-color: $_main_bg_color;
+  z-index: 20;
 
   .container {
     display: flex;
