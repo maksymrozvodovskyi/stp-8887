@@ -9,7 +9,6 @@
   @media screen and (min-width: 1200px) {
     padding: 64px 0;
     margin: 0 auto;
-    border: 1px solid red;
   }
 }
 .main-sec-title {
@@ -31,7 +30,7 @@
 .how-list {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 52px;
   line-height: 1.25;
 
   color: #080606;
@@ -109,7 +108,7 @@
 
 .dotted-mob {
   position: absolute;
-  top: 188px;
+  top: 180px;
   left: 44px;
   width: 239px;
   height: 465px;
@@ -119,7 +118,7 @@
 
   @media screen and (min-width: 1200px) {
     background-image: url('../img/how-to-play/dotted.png');
-    top: 177px;
+    top: 171px;
     left: 244px;
     width: 677px;
     height: 510px;
