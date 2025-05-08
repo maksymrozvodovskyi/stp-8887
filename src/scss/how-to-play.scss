@@ -1,10 +1,10 @@
 .to-play {
   background-color: #bea0c5;
-  position: relative;
 }
 .to-play .container {
   padding-top: 48px;
   padding-bottom: 48px;
+  position: relative;
 
   @media screen and (min-width: 1200px) {
     padding: 64px 0;
