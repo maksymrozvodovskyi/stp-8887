@@ -1,6 +1,11 @@
 .to-play {
   background-color: #bea0c5;
+  scroll-margin-top: 70px;
+  @media only screen and (min-width: 1200px) {
+    scroll-margin-top: 80px;
+  }
 }
+
 .to-play .container {
   padding-top: 48px;
   padding-bottom: 48px;
@@ -11,6 +16,7 @@
     margin: 0 auto;
   }
 }
+
 .main-sec-title {
   font-family: 'Cinzel Decorative', sans-serif;
   font-weight: 700;
@@ -27,6 +33,7 @@
     margin-bottom: 40px;
   }
 }
+
 .how-list {
   display: flex;
   flex-direction: column;
@@ -43,6 +50,7 @@
     line-height: 1.28;
   }
 }
+
 .how-item {
   position: relative;
   z-index: 1;
@@ -56,7 +64,7 @@
   @media screen and (min-width: 1200px) {
     display: inline-block;
 
-    padding: 10px 10px 10px 28px;
+    padding: 10px 10px 10px 35px;
     margin-bottom: 80px;
 
     &:last-child {
@@ -67,25 +75,26 @@
 
 @media screen and (min-width: 1200px) {
   .first-item {
-    margin-left: 55px;
+    margin-left: 65px;
   }
 
   .second-item {
-    margin-left: 505px;
+    margin-left: 495px;
   }
 
   .third-item {
-    margin-left: 73px;
+    margin-left: 83px;
   }
 
   .fourth-item {
-    margin-left: 467px;
+    margin-left: 457px;
   }
 
   .fifth-item {
-    margin-left: 98px;
+    margin-left: 108px;
   }
 }
+
 .svg-number {
   position: absolute;
   top: 0;
@@ -102,7 +111,7 @@
   @media screen and (min-width: 1200px) {
     width: 48px;
     height: 48px;
-    translate: -24px -3px;
+    translate: -17px -3px;
   }
 }
 
