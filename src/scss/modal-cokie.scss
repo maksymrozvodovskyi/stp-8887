@@ -1,0 +1,161 @@
+.cookie-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(8, 6, 6, 0.5);
+
+  display: flex;
+  justify-content: center;
+
+  z-index: 1000;
+
+  pointer-events: all;
+}
+
+.cookie-modal {
+  border-radius: 5px;
+  width: 288px;
+  height: 212px;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(105, 87, 109, 0.2);
+  background: #bea0c5;
+  margin-top: 245px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .cookie-modal {
+    margin-top: 275px;
+    margin-left: 85px;
+    width: 418px;
+    height: 260px;
+    padding: 24px 32px;
+  }
+}
+
+.cookie-content h2 {
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #080606;
+  margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .cookie-content h2 {
+    font-size: 32px;
+    line-height: 1.34;
+  }
+}
+
+.cookie-content p {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+}
+
+@media only screen and (min-width: 1200px) {
+  .cookie-content p {
+    font-size: 18px;
+    line-height: 1.28;
+    width: 354px;
+  }
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 16px;
+  width: 256px;
+  height: 41px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .cookie-buttons {
+    width: 354px;
+    height: 45px;
+    gap: 54px;
+    margin: 0 auto;
+  }
+}
+
+.cookie-buttons button {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  width: 120px;
+  height: 41px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #080606;
+}
+
+button.reject {
+  font-family: 'Cinzel Decorative', sans-serif;
+  border: 3px solid #779bc3;
+  border-radius: 5px;
+  padding: 9px 24px;
+  width: 120px;
+  height: 41px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #080606;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    border: 3px solid #b2c3d5;
+  }
+
+  &:focus {
+    border: 3px solid #568ecd;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  button.reject {
+    width: 150px;
+    height: 45px;
+  }
+}
+
+button.accept {
+  font-family: 'Cinzel Decorative', sans-serif;
+  background: #779bc3;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #080606;
+  border-radius: 5px;
+  padding: 9px 24px;
+  width: 120px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    background: #b2c3d5;
+  }
+
+  &:focus {
+    background: #568ecd;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  button.accept {
+    width: 150px;
+    height: 45px;
+  }
+}
