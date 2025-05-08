@@ -1,0 +1,92 @@
+body.modal-open {
+  overflow: hidden;
+}
+
+.cookie-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.cookie-modal {
+  border-radius: 5px;
+  width: 288px;
+  height: 212px;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(105, 87, 109, 0.2);
+  background: #bea0c5;
+}
+
+.cookie-content h2 {
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #080606;
+  margin-bottom: 16px;
+}
+
+.cookie-content p {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #080606;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 16px;
+  width: 256px;
+  height: 41px;
+}
+
+.cookie-buttons button {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  width: 120px;
+  height: 41px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #080606;
+}
+
+button.reject {
+  font-family: 'Cinzel Decorative', sans-serif;
+  border: 3px solid #779bc3;
+  border-radius: 5px;
+  padding: 9px 24px;
+  width: 120px;
+  height: 41px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #080606;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.accept {
+  font-family: 'Cinzel Decorative', sans-serif;
+  background: #779bc3;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #080606;
+  border-radius: 5px;
+  padding: 9px 24px;
+  width: 120px;
+  height: 41px;
+}
